@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/GuilhermePC09/API-Library/routes"
 
 func main() {
-	fmt.Println("Hello World!")
+	routes.HandleRequest()
 }
